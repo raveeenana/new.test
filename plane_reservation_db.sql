@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 26, 2021 at 06:58 AM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.2.31
+-- Generation Time: Sep 10, 2021 at 01:45 AM
+-- Server version: 10.4.19-MariaDB
+-- PHP Version: 7.3.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -63,7 +63,8 @@ CREATE TABLE `available_flights` (
 
 INSERT INTO `available_flights` (`trip_id`, `flight_no`, `startfrom`, `departure`, `departure_time`, `destination`, `e_class_price`, `b_class_price`) VALUES
 (1, 'AC09', 'Sri Lanka', '2021-07-07', '21:48:25', 'Japan', 60000.00, 950000.00),
-(2, 'BC09', 'Sri Lanka', '2021-07-17', '21:51:08', 'United State', 179000.00, 100000.00);
+(2, 'BC09', 'Sri Lanka', '2021-07-17', '21:51:08', 'United State', 179000.00, 100000.00),
+(3, 'A2-43', 'SriLanka', '2021-09-23', '10:28:00', 'China', 300000.00, 500000.00);
 
 -- --------------------------------------------------------
 
@@ -130,6 +131,7 @@ CREATE TABLE `user_accounts` (
 
 INSERT INTO `user_accounts` (`user_name`, `name`, `gender`, `email`, `tel_no`, `password`) VALUES
 ('chamo', 'chamodi', 'female', 'chamodi@gmail.com', '075534678', '123'),
+('mihi', 'mihirangi', 'male', 'mihi@gmail.com', '(+94)765431289', '123'),
 ('nimal', 'naimal SuriyaABndara', 'male', 'chamodi@gmail.com', '0965263827', '456');
 
 --
@@ -175,7 +177,7 @@ ALTER TABLE `user_accounts`
 -- AUTO_INCREMENT for table `available_flights`
 --
 ALTER TABLE `available_flights`
-  MODIFY `trip_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `trip_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `form_submissions`
