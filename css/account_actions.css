@@ -1,0 +1,78 @@
+#maindiv{
+  padding-top:250px;
+    position: relative;
+}
+
+#buttons_at_first{
+    margin-top: 30px;
+    width:150px;
+    height: 35px;
+    background:#FFFFE0;
+    cursor: pointer;
+    border: 5px solid black;
+    padding-bottom: 20px;
+    border-radius: 0px 25px;
+}
+
+
+#buttons_at_first > p{
+    color:black;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 35px;
+    
+} 
+
+#form_editing{
+    display: none;
+    width:350px;
+    height: 200px;
+    border: 1px solid white;
+    margin: 0px auto;
+    margin-top: 5px;
+    align-content: center;
+}
+
+#form_editing >div >div{
+
+    width:200px;
+    height: 40px;
+    margin: 10px; 
+    margin-bottom: 0px auto;
+    margin-left: 50px;
+
+}
+
+#form_editing > div > div > input {
+    width:250px;
+    height:35px;
+    background:transparent;
+    color:black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+} 
+
+#form_editing > div > div > textarea{
+    width:250px;
+    height:85px;
+    background:transparent;
+    color:black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#form_editing > div >#btn {
+    width:100px;
+    height:35px;
+    margin:0px;
+    padding-right: 125px;
+    font-weight: 900;
+
+}
+
+#form_editing > div >#btn >#submit {
+    width: 100px;
+    height:35px;
+}

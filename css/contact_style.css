@@ -1,0 +1,37 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url("../images/contact5.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} 
+
+#numbers > div{
+    background:rgb(127,255,212,0.5);
+    height:75px;
+    width:170px;
+    position:relative;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+#numbers > div:hover{
+    background:rgb(127,255,212);
+}
+
+#numbers h2{
+    color:darkblue;
+    font-family: serif;
+}
+
+p{
+    font-weight:bold;
+    color:black;
+    font-family:'Georgia';
+    font-size:20;
+}
+
+#topic{
+    font-size: 25px;
+    color:aliceblue;
+    text-align: center;
+}

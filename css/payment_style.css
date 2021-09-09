@@ -1,0 +1,115 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/pay_background2.jpg")  ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} 
+
+#logos{
+    height: 80px;   
+}
+
+#logos img{
+    height: 60px;
+    width: 90px;
+    padding-left: 5px;
+}
+
+.payment_page{
+    width: 430px;
+    padding: 5% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(0,128,128,0.9);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding:45px;
+    box-shadow: 10px 14px 12px rgba(0,128,128,0.5);
+}
+
+label{
+    width: 40%;
+    float:left;
+    height: 30px;
+    font-family: serif;
+    color:floralwhite;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form  #name,#pay_method,#ccv,#crd_no,#au_pwd,#acc_mail,select{
+    font-family: "Roboto",sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 60%;
+    float: right;
+    border:0;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 30px;
+}
+
+#exp{
+    width: 25%;
+    margin-right: 5%;
+}
+
+.form button{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width:100%;
+    border: 0;
+    padding: 15px;
+    color:#FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#money{
+    font-size: 17px;
+    font-family: monospace;
+    color:beige;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.form button:hover,.form button:active{
+    background: #43A047;
+}
+
+.form .message{
+    margin: 15px 0 0; 
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.form .message a{
+    color: gainsboro;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.form .online_acc{
+    display: none;
+}
+
+#back{
+    position: absolute;
+    left: 80%;
+    top:20px;
+    width: 200px;
+    height: 70px;
+}
+
+#backimg{
+    width:100px;
+    height:100px;
+}

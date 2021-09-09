@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    border: 0px;
+    padding-top: 85px;
+}
+#navbar{
+    width:80%;
+    height:70px;
+    background-color: black;
+    color:white;
+    position: fixed;
+    top:1px;
+    opacity: 0.5;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+
+#navbar ul{
+    float: right;
+    list-style: none;
+    padding: 0;           
+    margin: 0;
+    margin-top: 7px;
+}
+
+#navbar li{
+    display: inline-block;
+}
+
+#navbar a{
+    width: 100px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#navbar a:hover{
+    background: #669900;
+    transition: 0.6s;
+}
+
+#navbar #logo{
+    margin-left: 20px;
+    width: 250px;
+    float: left;
+    margin-top: 10px;
+}

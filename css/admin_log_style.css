@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background:url("../images/adminwall1.jpg")  no-repeat fixed;
+    background-size: 100% 100%
+} 
+
+#buttons_at_first{
+    width:200px;
+    height: 35px;
+    background:#FFFFE0;
+    position: absolute;
+    left: 50%;
+    top:60%;
+    transform: translateX(-50%) translateY(-50%);
+    cursor: pointer;
+    border-radius: 15px 0px;
+}
+
+#buttons_at_first > p{
+    background: rgba(7,40,195,0.4);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+} 
+
+#form_editing{
+    display: none;
+    width:350px;
+    height: 200px;
+    border: 1px solid white;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+
+#form_editing >div >div{
+
+    width:200px;
+    height: 40px;
+    margin: 10px; 
+    margin-bottom: 0px auto;
+    margin-left: 50px;
+
+}
+
+#form_editing > div > div > input {
+    width:280px;
+    height:35px;
+    background:transparent;
+    color:black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+} 
+
+#form_editing > div >#btn {
+    width:100px;
+    height:35px;
+    margin:0px auto;
+}
+
+#form_editing > div >#btn > input {
+    width: 100px;
+    height:35px;
+}
+
+#back{
+    position: absolute;
+    left: 80%;
+    top:90%;
+    width: 200px;
+    height: 70px;
+}
+
+#backimg{
+    width:150px;
+    height:40px;
+}
